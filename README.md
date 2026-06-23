@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# berkealpaslan.dev
+
+Personal portfolio website built with Next.js, featuring an interactive network mesh animation and a topology-inspired design.
+
+## Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion + Canvas API
+- **Theming:** next-themes (dark/light + system preference)
+- **i18n:** Custom React Context (TR/EN)
+
+## Features
+
+- **Interactive Network Mesh** — Canvas-based particle animation with mouse interaction, inspired by network topologies
+- **Bilingual Support** — Full Turkish/English content with client-side locale switching
+- **Dark/Light Theme** — Class-based toggle with system preference detection
+- **Typewriter Effect** — Cycling taglines in the hero section
+- **Scroll Animations** — Framer Motion reveal effects on each section
+- **Responsive Design** — Mobile-first layout with adaptive navigation
+- **SEO Optimized** — Open Graph image generation, meta tags, semantic HTML
+- **Locale-Aware Resume** — Downloads TR or EN resume based on active language
+
+## Design
+
+**"Topology"** — A visual language drawn from network infrastructure. The color palette combines warm amber (copper cabling) with electric blue (fiber optic), moving away from generic dark-theme templates.
+
+**Typography:** Syne (display) · Inter (body) · Fira Code (mono)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/              # Next.js App Router (layout, page, OG image)
+├── components/
+│   ├── layout/       # Navbar, Footer
+│   ├── sections/     # Hero, About, Skills, Experience, Projects, Contact
+│   └── ui/           # NetworkMesh, TypeWriter, ThemeToggle, Icons
+├── data/             # Projects and skills data
+└── i18n/             # Translations and language context
+```
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
