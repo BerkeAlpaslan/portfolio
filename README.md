@@ -1,4 +1,4 @@
-# berkealpaslan.dev
+# Portfolio
 
 Personal portfolio website built with Next.js, featuring an interactive network mesh animation and a topology-inspired design.
 
