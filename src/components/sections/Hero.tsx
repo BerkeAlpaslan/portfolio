@@ -5,9 +5,10 @@ import { ArrowDown } from "lucide-react";
 import NetworkMesh from "@/components/ui/NetworkMesh";
 import TypeWriter from "@/components/ui/TypeWriter";
 import { useLanguage } from "@/i18n/LanguageContext";
+import { Download } from "lucide-react";
 
 export default function Hero() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -59,6 +60,14 @@ export default function Hero() {
           >
             {t.hero.cta_contact}
           </button>
+          <a
+            href={locale === "tr" ? "/resumes/Berke_Alpaslan_CV_TR.pdf" : "/resumes/Berke_Alpaslan_CV_EN.pdf"}
+            download
+            className="flex items-center gap-2 px-6 py-3 border border-slate-muted/30 rounded-lg font-semibold text-slate-muted hover:border-amber-primary hover:text-amber-primary transition-colors"
+          >
+            <Download size={16} />
+            {t.hero.cta_resume}
+          </a>
         </motion.div>
       </div>
 

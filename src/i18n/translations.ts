@@ -18,6 +18,7 @@ export const translations = {
       ],
       cta_projects: "View Projects",
       cta_contact: "Get in Touch",
+      cta_resume: "Download CV",
     },
     about: {
       title: "About Me",
@@ -95,6 +96,7 @@ export const translations = {
       ],
       cta_projects: "Projelerimi Gör",
       cta_contact: "İletişime Geç",
+      cta_resume: "CV İndir",
     },
     about: {
       title: "Hakkımda",

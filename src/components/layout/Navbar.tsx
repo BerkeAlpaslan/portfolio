@@ -59,7 +59,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href={locale === "tr" ? "/resumes/resume-tr.pdf" : "/resumes/resume-en.pdf"}
+            href={locale === "tr" ? "/resumes/Berke_Alpaslan_CV_TR.pdf" : "/resumes/Berke_Alpaslan_CV_EN.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className="px-3.5 py-1.5 text-sm font-semibold rounded-lg bg-amber-primary text-navy-950 hover:bg-amber-dark transition-colors"
@@ -104,7 +104,7 @@ export default function Navbar() {
                 </button>
               ))}
               <a
-                href={locale === "tr" ? "/resumes/resume-tr.pdf" : "/resumes/resume-en.pdf"}
+                href={locale === "tr" ? "/resumes/Berke_Alpaslan_CV_TR.pdf" : "/resumes/Berke_Alpaslan_CV_EN.pdf"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-left text-sm font-semibold text-amber-primary hover:text-amber-dark transition-colors py-2"
