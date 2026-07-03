@@ -6,7 +6,7 @@ export const translations = {
       experience: "Experience",
       projects: "Projects",
       contact: "Contact",
-      resume: "Resume",
+      resume: "CV",
     },
     hero: {
       greeting: "Hi, I'm",

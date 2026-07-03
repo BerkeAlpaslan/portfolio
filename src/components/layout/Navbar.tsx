@@ -45,7 +45,7 @@ export default function Navbar() {
           }}
           className="font-display font-bold text-lg text-amber-primary hover:text-amber-dark transition-colors"
         >
-          BaraCuda
+          Berke Alpaslan
         </a>
 
         <div className="hidden md:flex items-center gap-6">
