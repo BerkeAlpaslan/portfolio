@@ -14,7 +14,7 @@ export const translations = {
       taglines: [
         ".NET Developer | Network & DevOps Explorer",
         "Backend Engineer | Clean Architecture Advocate",
-        "Building Robust APIs | Learning Infrastructure",
+        "Building Robust APIs | Shipping Infrastructure",
       ],
       cta_projects: "View Projects",
       cta_contact: "Get in Touch",
@@ -22,9 +22,9 @@ export const translations = {
     },
     about: {
       title: "About Me",
-      p1: "I'm a Computer Engineering graduate who builds backend systems with C# and ASP.NET Core. I care about doing things right — clean architecture, design patterns like Mediator and Repository, and APIs that are structured to scale. My internship at SednaCloud gave me my first taste of building a real product, and at Egebis I've been contributing to an actively evolving project as part of a professional team.",
-      p2: "What excites me most, though, goes beyond writing code. I have a deep curiosity for networking and infrastructure — how packets move through the OSI layers, how servers are configured, how applications get deployed. At Egebis, I've been learning Docker Swarm deployments and server management by closely shadowing our release manager, asking questions at every step.",
-      p3: "I'm currently looking for opportunities where I can grow as a backend developer while getting closer to the infrastructure and DevOps side of things. Whether it's building APIs, setting up deployment pipelines, or diving into cloud platforms — I want to be where development meets operations.",
+      p1: "I'm a Computer Engineering graduate who builds backend systems with C# and ASP.NET Core. I care about doing things right — Clean Architecture, CQRS, and APIs that are structured to scale. My internship at SednaCloud gave me my first taste of building a real product, and at Egebis I'm a core contributor to an enterprise, SAP-integrated product-configuration platform built for Vestel.",
+      p2: "What excites me most goes beyond writing CRUD endpoints. I built an LLM-powered agent that drives the platform's form editor through tool-calling, and led three architecture iterations of a product-visualization microservice — the latest a from-scratch Rust service. I also have a deep curiosity for networking and infrastructure, and I'm hands-on with Docker Swarm deployments at Egebis, not just watching from the sidelines.",
+      p3: "I'm currently looking for opportunities where I can keep growing as a backend developer while getting closer to the infrastructure and DevOps side of things — and I'm curious about network engineering too. Whether it's building APIs, running deployment pipelines, or diving deeper into cloud platforms, I want to be where development meets operations.",
     },
     skills: {
       title: "Skills & Technologies",
@@ -44,9 +44,9 @@ export const translations = {
         location: "Izmir, Turkey",
         period: "Feb 2026 - Present",
         description: [
-          "Developing ASP.NET Core APIs as part of an actively evolving product, primarily on the backend with additional documentation and minor frontend contributions",
-          "Learning Docker Swarm deployment, GitHub management, and server configuration by closely observing and engaging with the release manager",
-          "Collaborating through GitHub team workflows including code reviews and branch management",
+          "Design and implement a multi-tenant PostgreSQL database migration system (Liquibase), adopted as the team's migration-first standard",
+          "Build an LLM-powered agent that drives the platform's form editor through tool-calling, with authorization-aware and screen-state-verified compatibility checks",
+          "Lead three architecture iterations of a product-visualization microservice -- the latest a from-scratch Rust service -- plus release validation (K6) and security testing (OWASP ZAP, SAST tooling)",
         ],
       },
       sedna: {
@@ -92,7 +92,7 @@ export const translations = {
       taglines: [
         ".NET Developer | Network & DevOps Meraklısı",
         "Backend Mühendisi | Clean Architecture Tutkunu",
-        "Sağlam API'ler | Altyapı Öğreniyorum",
+        "Sağlam API'ler | Altyapı Üretiyorum",
       ],
       cta_projects: "Projelerimi Gör",
       cta_contact: "İletişime Geç",
@@ -100,9 +100,9 @@ export const translations = {
     },
     about: {
       title: "Hakkımda",
-      p1: "C# ve ASP.NET Core ile backend sistemleri geliştiren bir Bilgisayar Mühendisliği mezunuyum. İşleri doğru yapmaya önem veriyorum — clean architecture, Mediator ve Repository gibi tasarım kalıpları, ölçeklenebilir ve yapılandırılmış API'ler. SednaCloud'daki stajımda gerçek bir ürün geliştirmenin ilk deneyimini yaşadım, Egebis'te ise profesyonel bir ekibin parçası olarak aktif bir projeye katkıda bulunuyorum.",
-      p2: "Beni en çok heyecanlandıran şey ise kod yazmanın ötesinde. Network ve altyapıya derin bir merakım var — paketlerin OSI katmanlarında nasıl ilerlediği, sunucuların nasıl yapılandırıldığı, uygulamaların nasıl deploy edildiği. Egebis'te release manager'ımızı yakından takip ederek, her adımda sorular sorarak Docker Swarm deploy süreçlerini ve sunucu yönetimini öğreniyorum.",
-      p3: "Şu anda backend developer olarak büyüyebileceğim, aynı zamanda altyapı ve DevOps tarafına yakınlaşabileceğim fırsatlar arıyorum. API geliştirmek, deployment pipeline'ları kurmak ya da bulut platformlarına dalmak — geliştirme ile operasyonun buluştuğu yerde olmak istiyorum.",
+      p1: "C# ve ASP.NET Core ile backend sistemleri geliştiren bir Bilgisayar Mühendisliği mezunuyum. İşleri doğru yapmaya önem veriyorum — Clean Architecture, CQRS, ölçeklenebilir ve yapılandırılmış API'ler. SednaCloud'daki stajımda gerçek bir ürün geliştirmenin ilk deneyimini yaşadım, Egebis'te ise Vestel için geliştirilen, SAP entegrasyonlu kurumsal bir ürün konfigürasyon platformuna temel katkı sağlıyorum.",
+      p2: "Beni en çok heyecanlandıran şey, sıradan CRUD endpoint'leri yazmanın ötesinde. Platformun form editörünü tool-calling ile yöneten bir LLM ajanı geliştirdim ve bir ürün görselleştirme mikroservisinin üç mimari iterasyonuna öncülük ettim — sonuncusu sıfırdan yazılmış bir Rust servisi. Network ve altyapıya da derin bir merakım var; Egebis'te Docker Swarm deploy süreçlerini artık sadece izlemiyor, bizzat yürütüyorum.",
+      p3: "Şu anda backend developer olarak büyümeye devam edebileceğim, aynı zamanda altyapı ve DevOps tarafına yakınlaşabileceğim fırsatlar arıyorum — network mühendisliğine de ilgi duyuyorum. API geliştirmek, deployment pipeline'ları yürütmek ya da bulut platformlarına derinlemesine dalmak — geliştirme ile operasyonun buluştuğu yerde olmak istiyorum.",
     },
     skills: {
       title: "Beceriler & Teknolojiler",
@@ -122,9 +122,9 @@ export const translations = {
         location: "İzmir, Türkiye",
         period: "Şubat 2026 - Devam ediyor",
         description: [
-          "Aktif olarak geliştirilmekte olan bir üründe ağırlıklı olarak backend ASP.NET Core API geliştirme, ek olarak dokümantasyon ve küçük frontend katkıları",
-          "Release manager'ı yakından gözlemleyerek ve sorular sorarak Docker Swarm deploy, GitHub yönetimi ve sunucu konfigürasyonu öğrenme",
-          "GitHub team workflow'ları ile kod inceleme ve branch yönetimi",
+          "Çoklu-kiracılı PostgreSQL mimarisi için Liquibase tabanlı bir veritabanı migrasyon sistemi tasarlama ve hayata geçirme; ekibin migration-first standardı olarak benimsendi",
+          "Platformun form editörünü tool-calling ile yöneten bir LLM ajanı geliştirme; yetki kontrollü ve ekran durumuna göre doğrulanan uyumluluk kontrolleriyle",
+          "Bir ürün görselleştirme mikroservisinin üç mimari iterasyonuna öncülük etme -- sonuncusu sıfırdan yazılmış bir Rust servisi -- ayrıca K6 ile release doğrulama ve OWASP ZAP/SAST ile güvenlik testleri",
         ],
       },
       sedna: {
